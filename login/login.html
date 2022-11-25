@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>de tai lap trinh web</title>
+	<script type="text/javascript" language="JavaScript" src="image-logo.js"></script>
+	<script type="text/javascript" language="JavaScript" src="fontcolor.js"></script>
+	<link href="bootstrap-5.1.3\dist\css\bootstrap.css">
+	<script src="bootstrap-5.1.3\dist\css\bootstrap.js"></script>
+	<link href="aos-master\dist\aos.css" rel="stylesheet">
+	<script src="aos-master\dist\aos.js" language="JavaScript"></script>
+	<link rel="stylesheet" type="text/css" href="stylelogin1.css">
+	<link rel="stylesheet" type="text/css" href="stylelogin.css">
+	<script src="login.js" language="JavaScript"></script>
+</head>
+<body>
+	<div class="container-k">
+			<div class="menutop">
+		<header>
+		<div class="menu" data-aos="fade-down" data-aos-duration="500">
+			<div class="up">
+				<ul>
+					<li class="logo-menu"><a href=""><img src="iconlogin\logo.png" name="picload-logo-before" id="picload-logo-before"  height="96px"></a></li>
+					<li style="padding-right:35px;"><a href="../detaithietkeweb.html"><span onmouseover="fontcolorafter(this)" onmouseout="fontcolorbefore(this)" class="font-color1"><strong>Trang chủ</strong></span></a></li>
+					<li><a href="../detaithietkeweb.html"style="padding-right:35px;"><span onmouseover="fontcolorafter(this)" onmouseout="fontcolorbefore(this)" class="font-color1" name="change-fontcolor" id="change-fontcolor"><strong>Giới thiệu</strong></span></a></li>
+					<li><a href="../sanpham/sanpham-donuong.html" style="padding-right:35px;"><span onmouseover="fontcolorafter(this)" onmouseout="fontcolorbefore(this)" class="font-color1"><strong>Sản phẩm</strong></span></a></li>
+					<li><a href="../cuahang/cuahang.html" style="padding-right:35px;"><span onmouseover="fontcolorafter(this)" onmouseout="fontcolorbefore(this)" class="font-color1"><strong>Cửa hàng</strong></span></a></li>
+					<li style="padding-right: 35px;"><a href="../lienhe/lienhe.html"><span onmouseover="fontcolorafter(this)" onmouseout="fontcolorbefore(this)" class="font-color1"><strong>Liên hệ</strong></span></a></li>
+					<li><a href="../sign/signin.html"><span onmouseover="fontcolorafter1(this)" onmouseout="fontcolorbefore1(this)" class="btn btn-1"><strong>Đăng ký</strong></span></a></li>
+
+				</ul>
+			</div>
+		</div>
+</header>
+	</div>
+	<div class="content-k">
+		<form class="form-login" >
+			<h1>Đăng nhập</h1>
+			<div class="form-text">
+				<label>Đăng nhập</label>
+				<input type="text" name="tendn" style="padding-left:10px">
+			</div>
+			<div class="form-text">
+				<label>Mật khẩu</label>
+				<input type="password" name="mk" style="padding-left:10px">
+			</div>
+			<button onclick="kiemtra(this.form)">Đặng nhập</button>
+			<span style="font-size: 1.1em;line-height:1.3;">Bạn chưa có tài khoản đăng ký? Đăng ký <a href="#">Tại Đây</a></span>
+			<div class="icon-k">
+			<ul>
+				<li><a href="#"><img src="https://cdn.iconscout.com/icon/free/png-256/google-1772223-1507807.png" width="40px" height="40px"></a></li>
+				<li><a href="#"><img src="https://i.rada.vn/data/image/2020/08/21/Facebook-2020-200.png" width="40px" height="40px"></li>
+			</ul>
+		</div>
+		</form>
+	</div>
+
+
+	<script type="text/javascript">
+		const formLogin = document.querySelectorAll('.form-text input');
+		const formLabel = document.querySelectorAll('.form-text label');
+		for(let i=0;i<2;i++){
+			formLogin[i].addEventListener("mouseover",function() {
+				formLabel[i].classList.add("focus");
+				// body...
+			})
+			formLogin[i].addEventListener("mouseout",function() {
+				if(formLogin[i].value == ""){
+				formLabel[i].classList.remove("focus");
+				// body...
+			}
+			})
+		}
+	</script>
+</body>
+</html>

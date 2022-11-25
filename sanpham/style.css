@@ -1,0 +1,244 @@
+
+.le{
+	width: 100%;
+	height: 5px;
+	background-color: #F0F8FF;
+}
+.le1{
+	width: 100%;
+	height: 5px;
+	background-color: #6495ED;
+}
+.content{
+	width: 95%;
+	height: 200px;
+	margin-bottom: 50px;
+	border-radius: 10px;
+  background-image: url('../sanpham/iconsanpham/background-menu.jpg');
+	background-size: 100%;
+	background-repeat: repeat ;
+	
+	padding-right: 20px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.m-up1 {
+	width: 500px;
+	height: 70px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.m-up2{
+	width: 900px;
+	height: 50px;
+
+	margin: 0 auto;
+	text-align: center;
+}
+.m-up1 a {
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+}
+.menu-up{
+	width: 100%;
+	height: 270px;
+}
+.menu{
+	width: 100%;
+	height: 120px;
+
+	background-color: white;
+
+	display: block;
+}
+input::placeholder{
+	font-size: 1.3em;
+}
+.content-top-k{
+	width: 100%;
+	height: 600px;
+}
+* {box-sizing:border-box}
+/* thiết lập style cho slideshow container */
+ .slideshow-container {
+   max-width: 800px;
+   position: relative;
+   height: 405px;
+   margin: auto;
+ }
+/* ẩn hình ảnh cho phần tử slideshow */
+ .mySlides {
+   display: none;
+ }
+/* thiết kế nút mũi tên*/
+ .prev, .next {
+   cursor: pointer;
+   position: absolute;
+   top: 50%;
+   width: auto;
+   margin-top: -22px;
+   padding: 16px;
+   color: white;
+   font-weight: bold;
+   font-size: 18px;
+   transition: 0.6s ease;
+   border-radius: 0 3px 3px 0;
+   user-select: none;
+ }
+  .prev1, .next1{
+   cursor: pointer;
+   top: 50%;
+   width: auto;
+   margin-top: -22px;
+   padding-right: 15px;
+   padding-left: 15px;
+   padding-top: 3px;
+   padding-bottom: 7px;
+   color: black;
+   font-weight: bold;
+   font-size: 18px;
+   transition: 0.6s ease;
+   border-bottom-left-radius: 3px;
+   border-bottom-right-radius: 3px;
+   border-top-right-radius: 3px;
+   border-top-left-radius:3px ;
+   user-select: none;
+   border: 2px solid black;
+ }
+/* thiết kế nút mũi tên next nằm phía bên phải */
+ .next {
+   right: 0;
+   border-radius: 3px 0 0 3px;
+ }
+/* hiệu ứng thay đổi background khi hover vào nút mũi tên*/
+ .prev:hover, .next:hover {
+   background-color: rgba(0,0,0,0.8);
+ }
+  .prev1:hover, .next1:hover {
+   background-color: rgba(77, 5, 232);, 1
+ }
+/* Thiết lập style cho nội dung của mỗi phần tử slideshow */
+ .text {
+   color: #f2f2f2;
+   font-size: 15px;
+   padding: 8px 12px;
+   position: absolute;
+   bottom: 8px;
+   width: 100%;
+   text-align: center;
+ }
+/* Thiết lập style cho số hiển thị của phần tử */
+ .numbertext {
+   color: #f2f2f2;
+   font-size: 12px;
+   padding: 8px 12px;
+   position: absolute;
+   top: 0;
+ }
+/* thiết lập style  nút tròn điều khiển*/
+ .dot {
+   cursor: pointer;
+   height: 15px;
+   width: 15px;
+   margin: 0 2px;
+   background-color: #bbb;
+   border-radius: 50%;
+   display: inline-block;
+   transition: background-color 0.6s ease;
+ }
+.active, .dot:hover {
+   background-color: #717171;
+ }
+/* tạo hiệu ứng chuyển động fade */
+ .fade {
+   -webkit-animation-name: fade;
+   -webkit-animation-duration: 1.5s;
+   animation-name: fade;
+   animation-duration: 1.5s;
+ }
+@-webkit-keyframes fade {
+   from {opacity: .4}
+   to {opacity: 1}
+ }
+@keyframes fade {
+   from {opacity: .4}
+   to {opacity: 1}
+ }
+
+/* sline 2 */
+
+#slideshow {
+  overflow: hidden;
+  height: 200px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.slide-wrapper {
+  width: 2912px;
+  -webkit-animation: slide 14s ease infinite;
+}
+
+.slide {
+  float: left;
+  height: 510px;
+  width: 728px;
+}
+
+
+@-webkit-keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -728px;}
+  50% {margin-left: -728px;}
+  60% {margin-left: -1456px;}
+  80% {margin-left: -1456px;}
+}
+
+#slideshow1 {
+  overflow: hidden;
+  height: 200px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.slide-wrapper1 {
+  width: 2912px;
+  -webkit-animation: slide 20s ease infinite;
+}
+
+.slide1 {
+  float: left;
+	height: 510px;
+  width: 728px;
+}
+
+
+@-webkit-keyframes slide1 {
+  20% {margin-right: 0px;}
+  30% {margin-right: 728px;}
+  50% {margin-right: 728px;}
+  60% {margin-right: 1456px;}
+  80% {margin-right: 1456px;}
+}
+
+.prev-next-page{
+	width: 91px;
+	height: 32px;
+}
+#top-up {
+cursor: pointer;
+z-index: 9999;
+color:#004993;
+bottom: 20px;
+right: 15px;
+display: none;
+}
+#top-up:hover {
+color: #333
+}

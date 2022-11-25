@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" language="JavaScript" src="image-logo.js"></script>
+	<script type="text/javascript" language="JavaScript" src="fontcolor.js"></script>
+	<script type="text/javascript" language="JavaScript" src="chuyensline.js"></script>
+	<title>de tai lap trinh web</title>
+
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="stylesanpham.css">
+
+	
+
+
+	
+
+</head>
+<body>
+<div class="container-all">
+<div class="container">
+		
+		<div class="menu">
+			<div class="up">
+				<ul>
+				<li class="logo-menu"><a href=""><img src="../iconsanpham/logo.png" name="picload-logo-before" id="picload-logo-before"  height="95px"></a></li>
+					<li><a href=""><span onmouseover="fontcolorafter(this)" onmouseout="fontcolorbefore(this)" class="font-color1"><strong>TRANG CHỦ</strong></span></a></li>
+					<li><a href=""><span onmouseover="fontcolorafter(this)" onmouseout="fontcolorbefore(this)" class="font-color1" name="change-fontcolor" id="change-fontcolor"><strong>GIỚI THIỆU</strong></span></a></li>
+					<li><a href=""><span onmouseover="fontcolorafter(this)" onmouseout="fontcolorbefore(this)" class="font-color1"><strong>SẢN PHẨM</strong></span></a></li>
+					<li><a href=""><span onmouseover="fontcolorafter(this)" onmouseout="fontcolorbefore(this)" class="font-color1"><strong>CỬA HÀNG</strong></span></a></li>
+					<li style="padding-right:40px"><a href=""><span onmouseover="fontcolorafter(this)" onmouseout="fontcolorbefore(this)" class="font-color1"><strong>LIÊN HỆ</strong></span></a></li>
+					<li><a href=""><span onmouseover="fontcolorafter1(this)" onmouseout="fontcolorbefore1(this)" class="btn btn-1"><strong>ĐĂNG NHẬP</strong></span></a></li>
+					<li><a href=""><span onmouseover="fontcolorafter1(this)" onmouseout="fontcolorbefore1(this)" class="btn btn-1"><strong>ĐĂNG KÝ</strong></span></a></li>
+				</ul>
+			</div>
+		</div>
+	
+	</div>
+		<div class="content" style="background-image:url('../iconsanpham/background-menu.jpg')">
+			<div class="menu-up">
+				<div class="m-up1"><a>Chào mừng bạn đến RongChoistore</a></div>
+				<div class="m-up2 search">
+					<input type="text" name="tukhoa" onchange="tim(this.value)" class="khoa" placeholder="Hãy thử tìm trà sữa, bánh mì, bất cứ thứ gì!" style="padding-left:15px;width: 600px;height: 35px;">
+					<input type="button" name="btntim" value="Tìm kiếm" id='btntim' onclick="load(),show()" value="Tìm kiếm" style="width:100px;height:35px">
+				</div>
+		</div>
+	</div>
+</div>
+<div class="content-all">
+	<div class="content-left">
+		<!--Nguồn W3School -->
+<!-- Thẻ Chứa Slideshow -->
+ <div class="slideshow-container">
+  <!-- Kết hợp hình ảnh và nội dung cho mội phần tử trong slideshow-->
+   <div class="mySlides fade">
+     <div class="numbertext">1 / 3</div>
+     <img src="https://photo-cms-tpo.zadn.vn/w890/Uploaded/2022/rkznae/2020_08_03/an_lau_dung_cach_15758628233581103875147_crop_1575862832311103042156_GQEA.jpg" style="width:100%;height:400px">
+     <div class="text">Nội Dung 1</div>
+   </div>
+  <div class="mySlides fade">
+     <div class="numbertext">2 / 3</div>
+     <img src="https://cdn.pastaxi-manager.onepas.vn/content/uploads/articles/huyendt/10congthuclau/l%E1%BA%A9u%20ngon.png" style="width:100%;height: 400px;">
+     <div class="text">Nội Dung 2</div>
+   </div>
+  <div class="mySlides fade">
+     <div class="numbertext">3 / 3</div>
+     <img src="https://hoangphuongnam.com/wp-content/uploads/2021/01/mon-ngon-dai-khach-1.jpg" style="width:100%;height: 400px;">
+     <div class="text">Nội Dung 3</div>
+   </div>
+  <!-- Nút điều khiển mũi tên-->
+   <a class="prev" onclick="plusSlides(-1)">❮</a>
+   <a class="next" onclick="plusSlides(1)">❯</a>
+ </div>
+ <br>
+<!-- Nút tròn điều khiển slideshow-->
+ <div style="text-align:center">
+   <span class="dot" id="dot1" onclick="currentSlide(1)"></span>
+   <span class="dot" id="dot2" onclick="currentSlide(2)"></span>
+   <span class="dot" id="dot3" onclick="currentSlide(3)"></span>
+ </div>
+	</div>
+	<div class="content-right">
+		<div class="content-right-top">
+<div id="slideshow">
+  <div class="slide-wrapper">
+    <div class="slide"><img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2020%2F01%2F3956094_-Chef-Johns-Cioppino-Photo-by-Meredith.jpg" style="width:500px;height:200px;background-size: 100%;"></div>
+    <div class="slide"><img src="https://www.justonecookbook.com/wp-content/uploads/2016/06/Santa-Maria-Tri-Tip.jpg" style="width:500px;height:200px;background-size: 100%;"></div>
+       <div class="slide"><img src="https://yummyday.vn/uploads/images/lau-rieu-cua-bap-bo.jpg" style="width:500px;height:200px;background-size: 100%;"></div>
+  </div>
+</div>
+		</div>
+		<div class="content-right-bottom">
+<div id="slideshow1">
+  <div class="slide-wrapper1">
+    <div class="slide1"><img src="https://bizweb.dktcdn.net/100/421/036/files/cach-nau-tra-sua-truyen-thong-de-ban-2.jpg?v=1616644748197" style="width:500px;height:200px;background-size: 100%;" ></div>
+    <div class="slide1"><img src="https://cdn.huongnghiepaau.com/wp-content/uploads/2020/09/uong-nuoc-ep-xoai-co-tac-dung-gi.jpg" style="width:500px;height:200px;background-size: 100%;"></div>
+       <div class="slide1"><img src="https://cafefcdn.com/zoom/700_438/2020/6/14/hinh-anh-ly-cafe-buoi-sang-dep-hinhminhhoa-1592099048025598964586-crop-1592099057052994975563.jpg" style="width:500px;height:200px;background-size: 100%;"></div>
+  </div>
+</div>
+		</div>
+	</div>
+</div>
+</div>
+<div class="content-sanpham">
+	<div class="content-sanpham-left">
+		<div class="content-sanpham-left-inleft"></div>
+		<div class="content-sanpham-left-inright">
+		<div class="content-sanpham-left-1" style="font-size: 1.5em; color:#00008B">
+			Khu tìm kiếm
+		</div>
+		<div class="content-sanpham-right-2" style="font-size:1.3em;padding-top: 30px;">
+			 <a href="#" class="btn-k btn-solid effect-scale">Lựa chọn đồ ăn</a>
+		</div>
+		<ul>
+		<li><a href="../sanpham-donuong.html" class="btn-k1 btn-solid2 effect-scale">Đồ nướng</a></li>
+			<li><a href="../sanphamcon/sanpham-lau.html" class="btn-k1 btn-solid2 effect-scale">Lẩu </a></li>
+			<li><a href="../sanphamcon/sanpham-xao.html" class="btn-k1 btn-solid3 effect-scale">Đồ xào</a></li>
+			<li><a href="../sanphamcon/sanpham-khac.html" class="btn-k1 btn-solid2 effect-scale">Khác</a></li>
+		</ul>
+		<div class="content-sanpham-right-2" style="font-size:1.3em;padding-top: 30px;">
+			 <a href="#" class="btn-k btn-solid effect-scale">Lựa chọn đồ uống</a>
+		</div>
+		<ul>
+			<li><a href="../sanphamcon/sanpham-trasua.html" class="btn-k1 btn-solid2 effect-scale">Trà sữa</a></li>
+			<li><a href="../sanphamcon/sanpham-cafe.html" class="btn-k1 btn-solid2 effect-scale">Coffee</a></li>
+			<li><a href="../sanphamcon/sanpham-nuoc-khac.html" class="btn-k1 btn-solid2 effect-scale">Nước giải khát</a></li>
+			<li><a href="#" class="btn-k1 btn-solid2 effect-scale">Khác</a></li>
+		</ul>
+		<div class="content-sanpham-right-2" style="font-size:1.3em;padding-top: 30px;">
+			 <a href="#" class="btn-k btn-solid effect-scale">Đặc biệt</a>
+		</div>
+		<ul>
+			<li><a href="#" class="btn-k1 btn-solid2 effect-scale">Khuyến mãi</a></li>
+			<li><a href="#" class="btn-k1 btn-solid2 effect-scale">Combo</a></li>
+			<li><a href="#" class="btn-k1 btn-solid2 effect-scale">Ưu đãi</a></li>
+			<li><a href="#" class="btn-k1 btn-solid2 effect-scale">Quà tặng</a></li>
+		</ul>
+
+	</div>
+	</div>
+	<div class="content-sanpham-right">
+		<div class="content-sanpham-right-1">
+				<div style="padding-right: 30px;"><p style="font-size: 1.1em;">Sắp xếp theo</p></div>
+				<div style="padding-right:30px;"><a href="#" class="btn-k1 btn-solid1 effect-scale">Phổ biến</a></div>
+				<div style="padding-right: 30px;"><a href="#" class="btn-k1 btn-solid1 effect-scale">Món mới</a></div>
+				<div style="padding-right:30px;"><a href="#" class="btn-k1 btn-solid1 effect-scale">Bán chạy nhất</a></div>
+				<div style="padding-right:30px;"><select style="width:190px;height:35px;"><option>Giá</option></select></div>
+		</div>
+
+		<div class="content-sanpham-right-line1">
+			<a href="../information-sanpham/information-sanphamdoxao.html">
+				<div class="sanpham-right" onmouseover="changebackground(this)" onmouseout="returnbackground(this)">
+					<div class="sanpham-right-top"><img src="../iconsanpham/doxao/bocauxaoxaot.jpg" style="width:240px;height:250px;"></div>
+					<div class="sanpham-right-bottom">
+						<div class="sanpham-right-bottom-content">
+							<strong><p>Bồ câu xào xả ớt</p></strong>
+						</div>
+						<div class="sanpham-right-bottom-price">
+							<strong><p>135.000VND</p></strong>
+						</div>
+					</div>
+				</div>
+			</a>
+			<a href="../information-sanpham/information-sanphamdoxao.html">
+				<div class="sanpham-right" onmouseover="changebackground(this)" onmouseout="returnbackground(this)" >
+						<div class="sanpham-right-top"><img src="../iconsanpham/doxao/caxaocantoi1.jpg" style="width:240px;height:250px;"></div>
+					<div class="sanpham-right-bottom">
+						<div class="sanpham-right-bottom-content">
+							<strong><p>Cá xào cần tổi</p></strong>
+						</div>
+						<div class="sanpham-right-bottom-price">
+							<strong><p>140.000VND</p></strong>
+						</div>
+					</div>
+				</div>
+			</a>
+			<a href="../information-sanpham/information-sanphamdoxao.html">
+				<div class="sanpham-right" onmouseover="changebackground(this)" onmouseout="returnbackground(this)">
+						<div class="sanpham-right-top"><img src="../iconsanpham/doxao/dexaosa.jpg" style="width:240px;height:250px;"></div>
+					<div class="sanpham-right-bottom">
+						<div class="sanpham-right-bottom-content">
+							<strong><p>Dê xào sả</p></strong>
+						</div>
+						<div class="sanpham-right-bottom-price">
+							<strong><p>130.000VND</p></strong>
+						</div>
+					</div>
+				</div>
+				</a>
+			<a href="../information-sanpham/information-sanphamdoxao.html">
+				<div class="sanpham-right" onmouseover="changebackground(this)" onmouseout="returnbackground(this)">
+						<div class="sanpham-right-top"><img src="../iconsanpham/doxao/heorungxaosaot.jpg" style="width:240px;height:250px;"></div>
+					<div class="sanpham-right-bottom">
+						<div class="sanpham-right-bottom-content">
+							<strong><p>Heo rừng xào sả ớt</p></strong>
+						</div>
+						<div class="sanpham-right-bottom-price">
+							<strong><p>155.000VND</p></strong>
+						</div>
+					</div>
+				</div>	
+			</div>
+			</a>
+
+		<div class="content-sanpham-right-line2">
+			<a href="../information-sanpham/information-sanphamdoxao.html">
+				<div class="sanpham-right" onmouseover="changebackground(this)" onmouseout="returnbackground(this)">
+					<div class="sanpham-right-top"><img src="../iconsanpham/doxao/luonxao.jpg" style="width:240px;height:250px;"></div>
+					<div class="sanpham-right-bottom">
+						<div class="sanpham-right-bottom-content">
+							<strong><p>Lươn xào</p></strong>
+						</div>
+						<div class="sanpham-right-bottom-price">
+							<strong><p>120.000VND</p></strong>
+						</div>
+					</div>
+				</div>
+			</a>
+			<a href="../information-sanpham/information-sanphamdoxao.html">
+				<div class="sanpham-right" onmouseover="changebackground(this)" onmouseout="returnbackground(this)">
+						<div class="sanpham-right-top"><img src="../iconsanpham/doxao/mangtayxao.jpg" style="width:240px;height:250px;"></div>
+					<div class="sanpham-right-bottom">
+						<div class="sanpham-right-bottom-content">
+							<strong><p>Măng tây xào</p></strong>
+						</div>
+						<div class="sanpham-right-bottom-price">
+							<strong><p>50.000VND</p></strong>
+						</div>
+					</div>
+				</div>
+			</a>
+			<a href="../information-sanpham/information-sanphamdoxao.html">
+				<div class="sanpham-right" onmouseover="changebackground(this)" onmouseout="returnbackground(this)">
+						<div class="sanpham-right-top"><img src="../iconsanpham/doxao/mixaobo.jpg" style="width:240px;height:250px;"></div>
+					<div class="sanpham-right-bottom">
+						<div class="sanpham-right-bottom-content">
+							<strong><p>Mì xào bò</p></strong>
+						</div>
+						<div class="sanpham-right-bottom-price">
+							<strong><p>105.000VND</p></strong>
+						</div>
+					</div>
+				</div>
+			</a>
+			<a href="../information-sanpham/information-sanphamdoxao.html">
+				<div class="sanpham-right" onmouseover="changebackground(this)" onmouseout="returnbackground(this)">
+						<div class="sanpham-right-top"><img src="../iconsanpham/doxao/mixaolongga.jpg" style="width:240px;height:250px;"></div>
+					<div class="sanpham-right-bottom">
+						<div class="sanpham-right-bottom-content">
+							<strong><p>Mì xào lòng gà</p></strong>
+						</div>
+						<div class="sanpham-right-bottom-price">
+							<strong><p>125.000VND</p></strong>
+						</div>
+					</div>
+				</div>	
+			</div>
+			</a>
+
+		<div class="content-sanpham-right-line3">
+			<a href="../information-sanpham/information-sanphamdoxao.html">
+			<div class="sanpham-right" onmouseover="changebackground(this)" onmouseout="returnbackground(this)">
+					<div class="sanpham-right-top"><img src="../iconsanpham/doxao/mucongxaochuangot.png" style="width:240px;height:250px;"></div>
+					<div class="sanpham-right-bottom">
+						<div class="sanpham-right-bottom-content">
+							<strong><p>Mực xào chua ngọt</p></strong>
+						</div>
+						<div class="sanpham-right-bottom-price">
+							<strong><p>145.000VND</p></strong>
+						</div>
+					</div>
+				</div>
+			</a>
+			<a href="../information-sanpham/information-sanphamdoxao.html">
+				<div class="sanpham-right" onmouseover="changebackground(this)" onmouseout="returnbackground(this)">
+						<div class="sanpham-right-top"><img src="../iconsanpham/doxao/ngeuxao.jpg" style="width:240px;height:250px;"></div>
+					<div class="sanpham-right-bottom">
+						<div class="sanpham-right-bottom-content">
+							<strong><p>Ngêu xào</p></strong>
+						</div>
+						<div class="sanpham-right-bottom-price">
+							<strong><p>115.000VND</p></strong>
+						</div>
+					</div>
+				</div>
+			</a>
+			<a href="../information-sanpham/information-sanphamdoxao.html">
+				<div class="sanpham-right" onmouseover="changebackground(this)" onmouseout="returnbackground(this)">
+						<div class="sanpham-right-top"><img src="../iconsanpham/doxao/raucuxaochay.jpg" style="width:240px;height:250px;"></div>
+					<div class="sanpham-right-bottom">
+						<div class="sanpham-right-bottom-content">
+							<strong><p>Rau củ xào chay</p></strong>
+						</div>
+						<div class="sanpham-right-bottom-price">
+							<strong><p>70.000VND</p></strong>
+						</div>
+					</div>
+				</div>
+			</a>
+			<a href="../information-sanpham/information-sanphamdoxao.html">
+				<div class="sanpham-right" onmouseover="changebackground(this)" onmouseout="returnbackground(this)">
+						<div class="sanpham-right-top"><img src="../iconsanpham/doxao/raumuongxao.jpg" style="width:240px;height:250px;"></div>
+					<div class="sanpham-right-bottom">
+						<div class="sanpham-right-bottom-content">
+							<strong><p>Rau muống xào</p></strong>
+						</div>
+						<div class="sanpham-right-bottom-price">
+							<strong><p>50.000VND</p></strong>
+						</div>
+					</div>
+				</div>	
+			</div>
+				</a>
+
+		<div class="content-sanpham-right-line4">
+			<a href="../information-sanpham/information-sanphamdoxao.html">
+			<div class="sanpham-right" onmouseover="changebackground(this)" onmouseout="returnbackground(this)">
+					<div class="sanpham-right-top"><img src="../iconsanpham/lau/gaothiem.jpg" style="width:240px;height:250px;"></div>
+					<div class="sanpham-right-bottom">
+						<div class="sanpham-right-bottom-content">
+							<strong><p>Lẩu gà ớt hiểm</p></strong>
+						</div>
+						<div class="sanpham-right-bottom-price">
+							<strong><p>105.000VND</p></strong>
+						</div>
+					</div>
+				</div>
+			</a>
+			<a href="../information-sanpham/information-sanphamdoxao.html">
+				<div class="sanpham-right"onmouseover="changebackground(this)" onmouseout="returnbackground(this)">
+						<div class="sanpham-right-top"><img src="../iconsanpham/doxao/thitdadieuxaolan.jpg" style="width:240px;height:250px;"></div>
+					<div class="sanpham-right-bottom">
+						<div class="sanpham-right-bottom-content">
+							<strong><p>Thịt đà điểu xào lăn</p></strong>
+						</div>
+						<div class="sanpham-right-bottom-price">
+							<strong><p>160.000VND</p></strong>
+						</div>
+					</div>
+				</div>
+			</a>
+			<a href="../information-sanpham/information-sanphamdoxao.html">
+				<div class="sanpham-right" onmouseover="changebackground(this)" onmouseout="returnbackground(this)">
+						<div class="sanpham-right-top"><img src="../iconsanpham/doxao/tomxao.jpg" style="width:240px;height:250px;"></div>
+					<div class="sanpham-right-bottom">
+						<div class="sanpham-right-bottom-content">
+							<strong><p>Tôm xào cải</p></strong>
+						</div>
+						<div class="sanpham-right-bottom-price">
+							<strong><p>65.000VND</p></strong>
+						</div>
+					</div>
+				</div>
+			</a>
+			<a href="../information-sanpham/information-sanphamdoxao.html">
+				<div class="sanpham-right" onmouseover="changebackground(this)" onmouseout="returnbackground(this)">
+						<div class="sanpham-right-top"><img src="../iconsanpham/doxao/raucuxaochay.jpg" style="width:240px;height:250px;"></div>
+					<div class="sanpham-right-bottom">
+						<div class="sanpham-right-bottom-content">
+							<strong><p>Rau củ xào chay</p></strong>
+						</div>
+						<div class="sanpham-right-bottom-price">
+							<strong><p>70.000VND</p></strong>
+						</div>
+					</div>
+				</div>
+			</a>	
+		</div>
+	</div>
+</div>
+<div class="content3-end">
+				<div class="content3-end-top">
+					<ul>
+						<a href=""><li><p>Giới Thiệu</p></li></a>
+						<a href=""><li><p>Chính sách bảo mật</p></li></a>
+						<a href=""><li><p>Chính sách giao hàng</p></li></a>
+						<a href=""><li><p>Hướng dẫn mua hàng</p></li></a>
+						<a href=""><Li><p>Thẻ thành viên</p></Li></a>
+						<a href=""><li><p>Chính sách đổi trả</p></li></a>
+					</ul>
+
+				</div>
+				<div class="content3-end-bottom">
+					<div class="content-end-bottom-column" style="width: 550px;height: 600px;">
+						<h1 style="margin-top: 50px;color: white;">NHÀ HÀNG RONGCHOI</h1>
+						<ul>
+							<li><span><p>Địa chỉ: 39 Nguyễn huệ, Khu phố 2, P3, TXGC, Tiền Giang</p></span></li>
+							<li><span><p>Điện thoại: 0965558473</p></span></li>
+							<li><span><p>Tư vấn: 0965558473</p></span></li>
+							<li><span><p>Email: Rongchoi@gmail.com</p></span></li>
+							<li><span><p>Website: https://wwww.rongchoi.com</span></p></li>
+							<li><span><p>Facebook: https://www.facebook.com/RongChoi</p></span></li>
+						</ul>
+					</div>
+
+					<div class="content-end-bottom-column">
+						<h3 style="margin-top:50px;font-size: 1.5em;color: white;">Google Map</h3>
+						<img src="../../iconmenu/map.jpg" style="width:400px;height: 300px; padding-top:20px">
+					</div>
+
+					<div class="content-end-bottom-column">
+						<h3 style="margin-top:50px;font-size: 1.5em;color: white;">Facebook</h3>
+						<img src="../../iconmenu/facebook.jpg" style="width: 400px;height: 300px; padding-top: 20px;">
+					</div>
+				</div>
+
+	<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<script type="text/javascript" src=""></script>
+</div>
+</body>
+</html>
